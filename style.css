@@ -1,0 +1,147 @@
+body{
+    background: rgb(6,54,38);
+    background: linear-gradient(90deg, rgba(6,54,38,1) 0%, rgba(0,145,80,1) 35%, rgba(0,212,255,1) 100%);
+}  
+.container{
+    border-radius: 50%;
+    border: 20px solid rgb(220, 213, 217);
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.dot{
+    background-color: rgb(2, 2, 10);
+    width:20px;
+    height:20px;
+    position: absolute;
+    border-radius: 50%;
+    top:240px;
+    left: 240px;
+}
+
+.hour{
+    font-size: 30px;
+    color:rgb(226, 226, 236);
+    position:absolute;
+    font-weight: bold;
+}
+
+.hour-3{
+    top: -12px;
+    right:-235px;
+}
+
+.hour-6{
+    bottom: -243px;
+    left:-1px;
+}
+
+.hour-9{
+    top: -15px;
+    left:-235px;
+}
+
+.hour-12{
+    top: -240px;
+    left:-10px;
+}
+
+.brand{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(225, 226, 235);
+    position: absolute;
+    top: -170px;
+    left: -40%;
+}
+
+.minute-wrapper{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.minute-hand{
+    position: relative;
+}
+
+.minute-hand .hand{
+    width: 4px;
+    height: 200px;
+    background-color: rgb(225, 226, 235);
+    position: absolute;
+    left: 7px;
+    top: -200px;
+}
+
+.minute-hand .arrow{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(225, 226, 235);
+    position: absolute;
+    left: 0px;
+    top: -212px;
+    transform: rotate(180deg);
+}
+
+
+
+.hour-wrapper{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.hour-hand{
+    position: relative;
+}
+
+.hour-hand .hand{
+    width: 6px;
+    height: 100px;
+    background-color: rgb(225, 226, 235);
+    position: absolute;
+    left: 7px;
+    top: -100px;
+}
+
+.hour-hand .arrow{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(225, 226, 235);
+    position: absolute;
+    left: 2px;
+    top: -112px;
+    transform: rotate(180deg);
+}
+
+
+.seconds-wrapper{
+    width: 400px;
+    height: 210px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.seconds-hand{
+    position: relative;
+}
+
+.seconds-hand .hand{
+    width: 2px;
+    height: 210px;
+    background-color: rgb(226, 43, 43);
+    position: absolute;
+    left: 7px;
+    top: -209px;
+}
